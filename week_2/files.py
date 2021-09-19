@@ -1,0 +1,13 @@
+# f = open("C:\\Users\\vikto\\text.txt")
+f = open("C:\\Users\\vikto\\text.txt", "w")
+f.write("The world is changed.\nI taste it in the water.\n")
+f.close()
+f = open("C:\\Users\\vikto\\text.txt", "r")
+print(f.tell())
+print(f.read())
+f.seek(0)
+print(f.tell())
+print(f.read())
+f.close()
+with open("C:\\Users\\vikto\\text.txt") as f:
+    print(f.read())
