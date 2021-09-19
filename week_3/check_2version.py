@@ -1,0 +1,1 @@
+print("впывп".isalpha())
